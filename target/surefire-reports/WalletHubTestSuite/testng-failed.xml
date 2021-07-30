@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [WalletHubTestSuite]">
+  <test thread-count="5" verbose="0" name="Assignment(failed)">
+    <classes>
+      <class name="com.wallethub.testcases.WalletHubReviewVerification">
+        <methods>
+          <include name="postStatus"/>
+          <include name="getDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.wallethub.testcases.WalletHubReviewVerification -->
+    </classes>
+  </test> <!-- Assignment(failed) -->
+</suite> <!-- Failed suite [WalletHubTestSuite] -->
